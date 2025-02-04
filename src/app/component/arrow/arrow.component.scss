@@ -1,0 +1,25 @@
+.arrow-container .arrow {
+  box-shadow: 2px 2px 0 0 white inset;
+  padding: 12px;
+  opacity: 0;
+  position: relative;
+  transform: rotate(225deg);
+  animation: arrow-movement 2s ease-in-out infinite;
+}
+
+@keyframes arrow-movement {
+
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    top: 30px;
+  }
+}

@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: gothic-medium;
+  src: url(assets/fonts/bank_gothic_medium.otf) format("opentype");
+}
+
+
+@font-face {
+  font-family: gothic_light;
+  src: url(assets/fonts/bank_gothic_light_bt.ttf) format("opentype");
+}
+
+
+.gothic_light {
+
+  font-family: gothic_light, serif;
+
+}
+
+
+html {
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+
+body {
+
+  color: white;
+
+}
+
+
+.container {
+
+  scroll-snap-align: start;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+
+}
+
+
+.slide {
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 0 0 0;
+
+}
+
+.intro-outro-pages {
+
+  background-color: black;
+  background-image:url("assets/img/layout/tklogo.svg");
+  background-size: auto;
+}
+
+.wrapper-row {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+
+.footer {
+  color: white;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+
+@mixin hr-line {
+  flex: 1;
+  background: #c7c7c7;
+  content: "";
+  height: 1px;
+}
+
+
+.text-hr {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  width: 100%;
+  margin: 15px auto;
+  color: #ffffff;
+
+  &::after {
+    @include hr-line;
+  }
+
+  &--center {
+    &::before {
+      @include hr-line;
+    }
+
+    .text-hr__text {
+      padding: 0 15px;
+    }
+  }
+}

@@ -1,0 +1,92 @@
+
+#gallery-page {
+  background-image:url("../../../assets/img/content/gallery/gallery-bg.jpg");
+}
+
+
+p.card-text {
+  margin: 0;
+}
+
+
+.card {
+  width: 286px;
+  padding: 0;
+  margin: 10px;
+  height: 68vh;
+}
+
+
+.card-body  {
+  margin: 0 auto;
+  width: 450px;
+}
+
+
+.card-footer {
+  border: none;
+  display: contents;
+}
+
+
+.card-footer > a {
+margin: 5px 5px 5px 5px;
+}
+
+
+.card-button-row {
+  margin: 0 0 0 0;
+}
+
+
+.card-button-slot {
+  padding: 5px;
+  width: 50%;
+}
+
+
+.card-button {
+  width: 100%;
+}
+
+
+/* lg-xl */
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+
+  #portfolio-content {
+    margin-top: 10px;
+  }
+}
+
+
+/* sm-md */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+
+  #portfolio-content {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #gallery-page {
+    justify-content: flex-start;
+    height: 230vh;
+  }
+
+}
+
+
+/* xs */
+@media only screen and (max-width: 575px) {
+
+  #portfolio-content {
+    margin-top: 50px;
+  }
+
+  #gallery-page {
+
+    justify-content: flex-start;
+    height: 240vh;
+  }
+
+}

@@ -1,0 +1,45 @@
+#outro-page {
+  justify-content: flex-start;
+}
+
+#end-text {
+  margin-top: 100px;
+}
+
+.icon-size {
+  font-size: 20px;
+}
+
+
+
+
+/* md */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  #outro-page {
+    height: 120vh;
+  }
+}
+
+
+/* xs-sm */
+@media only screen and (max-width: 767px) {
+
+  #outro-page {
+    height: 130vh;
+  }
+}
+
+
+
+
+/*
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+*/

@@ -1,0 +1,58 @@
+
+#cv-page {
+  background-image:url("../../../assets/img/content/cv/cv-bg.jpg");
+}
+
+
+
+
+
+#general-information {
+  width: 83%;
+}
+
+
+/* xs-sm */
+@media only screen and (max-width: 767px) {
+
+  #cv-page {
+    justify-content: flex-start;
+    height: 150vh;
+  }
+}
+
+
+
+
+/*
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  #cv-page {
+    justify-content: flex-start;
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+
+  #cv-page {
+    justify-content: flex-start;
+    height: 150vh;
+  }
+}
+
+*/
+
