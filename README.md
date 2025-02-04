@@ -14,7 +14,7 @@ This repository contains the source code of the [krizsanmunka.hu](https://krizsa
 
 The code in this repository formatted according the standards of the Google Style Guides.
 
-https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type
+https://google.github.io/styleguide/
 
 ### Commit Message Style
 
